@@ -14,10 +14,10 @@ Code here
 ```
 
 
-### Team: xxxxxxx
+### Team: Noob Riot
 
-1. ชื่อ นามสกุล     StudentID: 63130500xxx
-2. ชื่อ นามสกุล     StudentID: 63130500xxx
-3. ชื่อ นามสกุล     StudentID: 63130500xxx
-4. ชื่อ นามสกุล     StudentID: 63130500xxx
-5. ชื่อ นามสกุล     StudentID: 63130500xxx
+1. ธันณวัฒน์ ชูดำ     StudentID: 63130500142
+2. วิศรุต อำไพสุวรรณ     StudentID: 63130500146
+3. ณัฐพล ชูศรีวัน     StudentID: 63130500154
+4. ทศวรรษ สมตัว     StudentID: 63130500155
+5. ศุภกร ไพรสกุลเดชา     StudentID: 63130500158
