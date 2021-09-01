@@ -3,59 +3,45 @@ Explore 2 dataset that given then finding descriptive statistics and summary res
 
 ### Answer
 
-1.) From survey, most students use left hand writing.
-```{R}
-Code here
-```
-Descriptive
-```{R}
-Code here
-```
+1.)Find the average body weight of all cats.
+mean(cats$Bwt)  #2.723611
+      Descriptive 
+Find the average of weight by using the ‘mean’ command
 
-2.) Descriptive statistics Statement
-```{R}
-Code here
-```
-Descriptive
-```{R}
-Code here
-```
+2.)Find the gender of all cats and their number for each gender.
+summary(cats$Sex) 
+          # F  M 
+            47 97 
+       Descriptive 
+Find each gender of the cat by using the ‘summary’ command.
 
-3.) From survey, most students use left hand writing.
-```{R}
-Code here
-```
-Descriptive
-```{R}
-Code here
-```
+3.)How much do most cats weigh?
+Mode(cats$Bwt)
+#2.2 มีทั้งหมด 14 ตัว
+       Descriptive 
+Find the most weight of the cat by using the ‘mode’ command.
 
-4.) From survey, most students use left hand writing.
-```{R}
-Code here
-```
-Descriptive
-```{R}
-Code here
-```
+4.)Find someone who has never smoked
+table(survey$Smoke[survey$Smoke =='Never'])
+#Heavy Never Occas Regul 
+    0        189     0     0 
+        Descriptive 
+Find who is not smoking by using the ‘table’ command and add the condition.
 
-5.) From survey, most students use left hand writing.
-```{R}
-Code here
-```
-Descriptive
-```{R}
-Code here
-```
+5.)Find the number of people in that age 
+ summary(factor(floor(survey$Age)))
+            #16 17  18  19 20 21 22  23  24  25  26  27  28  29  30  32  35  36  39  41  43  44   70 73 
+             4  74  61  32 20 13  3   9   2   1   1   1   2   1   2   2   2   1   1   1   1   1   1   1 
+          Descriptive 
+Use factor to group up the range of age and use floor to round the decimal.
+Find the range of the age from using the ‘summary’ command.
+(ใช้ floor ปัดช่วงอายุลงเพราะเป็นจุดทศนิยม)
 
-6.) From survey, most students use left hand writing.
-```{R}
-Code here
-```
-Descriptive
-```{R}
-Code here
-```
+6.)Find out which gender is most left-handed.
+Mode(survey$Sex[survey$W.Hnd=="Left"],na.rm = TRUE)
+#ผู้ชาย ทั้งหมด 10 คน
+          Descriptive
+Find which gender has the most left-handed by using the ‘Mode’ command and add conditions that do not count on NA.
 
 
 ### Team: Noob Riot
