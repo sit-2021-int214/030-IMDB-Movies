@@ -57,7 +57,7 @@ Use factor to group up the range of age and use floor to round the decimal.
 Find the range of the age from using the ‘summary’ command.
 ```
 
-6.) From survey, most students use left hand writing.
+6.) Find out which gender is most left-handed.
 ```{R}
 Mode(survey$Sex[survey$W.Hnd=="Left"],na.rm = TRUE)
 #ผู้ชาย ทั้งหมด 10 คน
