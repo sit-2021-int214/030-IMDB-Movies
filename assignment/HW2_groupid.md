@@ -37,7 +37,7 @@ Find the most weight of the cat by using the ‘mode’ command.
 ```{R}
 table(survey$Smoke[survey$Smoke =='Never'])
 #Heavy Never Occas Regul 
-    0        189     0     0 
+    0   189     0     0 
 ```
 Descriptive
 ```{R}
