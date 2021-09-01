@@ -5,7 +5,8 @@ Explore 2 dataset that given then finding descriptive statistics and summary res
 
 1.) Find the average body weight of all cats.
 ```{R}
-mean(cats$Bwt)  #2.723611
+mean(cats$Bwt)  
+#2.723611
 ```
 Descriptive
 ```{R}
@@ -15,8 +16,8 @@ Find the average of weight by using the ‘mean’ command
 2.) Find the gender of all cats and their number for each gender.
 ```{R}
 summary(cats$Sex) 
-          # F  M 
-            47 97
+# F  M 
+ 47 97
 ```
 Descriptive
 ```{R}
