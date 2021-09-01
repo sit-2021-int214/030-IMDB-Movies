@@ -16,8 +16,16 @@ Code here
 ```{R}
 Code here
 ```
+Descriptive
+```{R}
+Code here
+```
 
 3.) From survey, most students use left hand writing.
+```{R}
+Code here
+```
+Descriptive
 ```{R}
 Code here
 ```
@@ -26,13 +34,25 @@ Code here
 ```{R}
 Code here
 ```
+Descriptive
+```{R}
+Code here
+```
 
 5.) From survey, most students use left hand writing.
 ```{R}
 Code here
 ```
+Descriptive
+```{R}
+Code here
+```
 
 6.) From survey, most students use left hand writing.
+```{R}
+Code here
+```
+Descriptive
 ```{R}
 Code here
 ```
