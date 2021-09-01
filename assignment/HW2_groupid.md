@@ -13,6 +13,26 @@ Code here
 Code here
 ```
 
+3.) From survey, most students use left hand writing.
+```{R}
+Code here
+```
+
+4.) From survey, most students use left hand writing.
+```{R}
+Code here
+```
+
+5.) From survey, most students use left hand writing.
+```{R}
+Code here
+```
+
+6.) From survey, most students use left hand writing.
+```{R}
+Code here
+```
+
 
 ### Team: Noob Riot
 
