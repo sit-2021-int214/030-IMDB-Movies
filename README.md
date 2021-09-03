@@ -1,5 +1,4 @@
-# GroupID-Datasetname
-
+# Group30-IMDB Movies Dataset
 Datasets from: https://www.kaggle.com/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows
 
 ## Objective
