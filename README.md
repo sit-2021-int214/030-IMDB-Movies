@@ -6,7 +6,7 @@ Original Datasets from: https://www.kaggle.com/harshitshankhdhar/imdb-dataset-of
 
 This dataset is about's IMDB information of top 1000 movies and tv shows. This dataset has 1000 observations with 16 variables. It includes
 1. Poster_Link - Link of the poster that imdb using
-2. Series_Title = Name of the movie
+2. Series_Title - Name of the movie
 3. Released_Year - Year at which that movie released
 4. Certificate - Certificate earned by that movie
 5. Runtime - Total runtime of the movie
@@ -15,7 +15,10 @@ This dataset is about's IMDB information of top 1000 movies and tv shows. This d
 8. Overview - mini story/ summary
 9. Meta_score - Score earned by the movie
 10. Director - Name of the Director
-11-14. Star1,Star2,Star3,Star4 - Name of the Stars
+11. Star1 - Name of the Stars
+12. Star2 - Name of the Stars
+13. Star3 - Name of the Stars
+14. Star4 - Name of the Stars
 15. Noofvotes - Total number of votes
 16. Gross - Money earned by that movie
 
