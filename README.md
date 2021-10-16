@@ -4,13 +4,20 @@ Original Datasets from: https://www.kaggle.com/harshitshankhdhar/imdb-dataset-of
 
 ### About's Student Survey Datasets
 
-This dataset is about's student survey which collected from class INT214 Statistics for Information Technology ,School of Information Technology, KMUTT. This dataset has 140 observations with 12 variables. It includes
-1. Excel Skill
-2. R Skill
-3. Levels of Statistics Knowledge
-4. Genre of music
-
-...
+This dataset is about's IMDB information of top 1000 movies and tv shows. This dataset has 1000 observations with 16 variables. It includes
+1. Poster_Link - Link of the poster that imdb using
+2. Series_Title = Name of the movie
+3. Released_Year - Year at which that movie released
+4. Certificate - Certificate earned by that movie
+5. Runtime - Total runtime of the movie
+6. Genre - Genre of the movie
+7. IMDB_Rating - Rating of the movie at IMDB site
+8. Overview - mini story/ summary
+9. Meta_score - Score earned by the movie
+10. Director - Name of the Director
+11-14. Star1,Star2,Star3,Star4 - Name of the Stars
+15. Noofvotes - Total number of votes
+16. Gross - Money earned by that movie
 
 ## Overview
 เป็นการวิเคราะห์ข้อมูลเชิงสถิติเกี่ยวกับ ความรู้และความพร้อมของนักศึกษาต่อการเรียนรู้รายวิชา INT214 พฤติกรรมความชื่นชอบของนักศึกษา ข้อมูลเกี่ยวกับนักศึกษา โดยได้มีการสำรวจข้อมูลนักศึกษาชั้นปีที่ 2 โดยใช้เครื่องมือ Google Forms และนำมาทำความสะอาดและวิเคราะห์โดยใช้ภาษา R และใช้เครื่องมือ Google Studio ในการทำ Dashboard ของข้อมูล นอกจากนี้ได้มีการวิเคราะห์เพื่อหาความสัมพันธ์ของข้อมูล และตั้งสมมุติฐาน
