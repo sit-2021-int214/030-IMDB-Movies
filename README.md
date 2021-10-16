@@ -36,7 +36,6 @@ This dataset is about's IMDB information of top 1000 movies and tv shows. This d
 
 ### Tools
 
-- Google Form
 - R Language
 - R Studio Desktop
 
