@@ -1,4 +1,4 @@
-:octocat: # Group30-IMDB Movies Dataset
+# Group30-IMDB Movies Dataset   :octocat:
 
 Original Datasets from: https://www.kaggle.com/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows
 
