@@ -31,6 +31,34 @@ is.character(imdb$Star1)
 
 is.numeric(imdb$Gross)
 ```
+### Result : 
+```{R}
+> is.character(imdb$Series_Title)
+[1] TRUE
+> 
+> is.numeric(imdb$Released_Year)
+[1] FALSE
+> assert_is_numeric(imdb$Released_Year)
+Error: is_numeric : imdb$Released_Year is not of class 'numeric'; it has class 'character'.
+> 
+> is.character(imdb$Genre)
+[1] TRUE
+> 
+> is.numeric(imdb$IMDB_Rating)
+[1] TRUE
+> 
+> is.numeric(imdb$Meta_score)
+[1] TRUE
+> 
+> is.character(imdb$Director)
+[1] TRUE
+> 
+> is.character(imdb$Star1)
+[1] TRUE
+> 
+> is.numeric(imdb$Gross)
+[1] TRUE
+```
 ##  ขั้นตอนที่ 2 : Changing the types of values and Handling missing data and outliers
 #### เนื่องจากในคอลัมน์ Released_Year มีข้อมูลหนังที่มีปีที่ออกฉายเป็น "PG" เราไปเช็คมาแล้วว่าหนังเรื่องนั้นออกฉายเมื่อปี 1995 จึง replace เป็น 1995 แทน "PG" และเนื่องจาก Released_Year เป็น type character เราจึงเปลี่ยนเป็น type numeric แทน
 ```{R}
