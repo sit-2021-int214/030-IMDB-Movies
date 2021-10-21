@@ -8,6 +8,4 @@ IMDB Dataset of top 1000 movies นั้นเป็น dataset ที่รว
 
 | variables | รายละเอียด | ประเภท | ตัวอย่างข้อมูล
 |-----------|-----------|-------|------------|
-
-
 |Poster_Link | ลิงค์โปสเตอร์หนัง | character | https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGde...|
