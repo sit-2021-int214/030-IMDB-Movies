@@ -72,10 +72,10 @@ print(Genre1)
 ```
 ### Result :จะมีประเภท Drama ที่ติดมากที่สุดคือ 85 เรื่อง และลำดับที่ 2 คือ Drama, Romance มีทั้งหมด 37 เรื่อง และ Comedy, Drama ที่เป็นลำดับที่ 3 โดยมีทั้งหมด 35 เรื่อง
 ```{R}
- Genre           	  Count_of_Genre
-  <chr>          		 <int>
-1 Drama       	        85
-2 Drama, Romance    	  37
+ Genre             Count_of_Genre
+  <chr>               <int>
+1 Drama                 85
+2 Drama, Romance        37
 3 Comedy, Drama         35
    
 ```
@@ -89,18 +89,18 @@ print(Years)
 ```
 ### Result :ปีทึ่มีการฉายหนังมากที่สุดคือปี 2014 จำนวนทั้งหมด 32 เรื่อง และ ปี 2009 จำนวน 31 เรื่องตามลำดับ
 ```{R}
-Released_Year	Count_of_year
-       <dbl>		 <int>
- 1	     2014		  32
- 2	     2004			31
- 3	     2009			29
- 4	     2013			28
- 5	     2016			28
- 6	     2001			27
- 7	     2006			26
- 8	     2007			26
- 9	     2015			25
-10	     2012			24
+   Released_Year Count_of_year
+         <dbl>    <int>
+ 1       2014     32
+ 2       2004     31
+ 3       2009     29
+ 4       2013     28
+ 5       2016     28
+ 6       2001     27
+ 7       2006     26
+ 8       2007     26
+ 9       2015     25
+10       2012     24
 # ... with 90 more rows
     
 ```
