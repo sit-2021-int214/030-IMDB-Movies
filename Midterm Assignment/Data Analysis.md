@@ -155,15 +155,15 @@ print(Denis_10_15)
 ```
 ### Result : หนังประเภท Drama, Romance เป็นหนังที่ได้รับความนิยมมากที่สุดในศตรวรรษที่ 19
 ```{R}
-Released_Year		          Gross			Genre         
-       <dbl>			        <dbl>			<chr>         
-1     1997		        659325379 	  Drama, Romance
-
+Released_Year            Gross           Genre         
+       <dbl>             <dbl>           <chr>         
+1     1997              659325379    Drama, Romance
+```
 ### Result : หนังประเภท Action, Adventure, Sci-Fi เป็นหนังที่ได้รับความนิยมมากที่สุดในศตรวรรษที่ 20
 ```{R}
-Released_Year		       Gross			    Genre                    
-         <dbl>		    	<dbl>			    <chr>                    
-1	       2015		       936662225 	   Action, Adventure, Sci-Fi
+       Released_Year            Gross             Genre                    
+         <dbl>                  <dbl>             <chr>                    
+1         2015                 936662225   Action, Adventure, Sci-Fi
 
 ```
 
