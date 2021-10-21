@@ -30,9 +30,9 @@ print(Genre_Metascore100)
  6 Drama, Mystery                             100
  7 Drama, Mystery, Romance                    100
  8 Drama                                      100
- 9 Drama                         	            100
+ 9 Drama                                      100
 10 Drama, Film-Noir                           100
-11 Drama                        	            100
+11 Drama                                      100
 12 Drama, Film-Noir, Romance                  100
 
 ```
