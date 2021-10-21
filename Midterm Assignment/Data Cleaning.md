@@ -12,7 +12,6 @@ imdb <- read_csv("https://raw.githubusercontent.com/sit-2021-int214/030-IMDB-Mov
 ```
 
 ##  ขั้นตอนที่ 1 : Checking the types of values
-#### Released_Year เป็น type character ซึ่งเราต้องการเปลี่ยนให้เป็น type numeric
 ```{R}
 is.character(imdb$Series_Title)
 
@@ -31,7 +30,7 @@ is.character(imdb$Star1)
 
 is.numeric(imdb$Gross)
 ```
-#### Result : 
+#### Result : Released_Year เป็น type character ซึ่งเราต้องการเปลี่ยนให้เป็น type numeric
 ```{R}
 > is.character(imdb$Series_Title)
 [1] TRUE
