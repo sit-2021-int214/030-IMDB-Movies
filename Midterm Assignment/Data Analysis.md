@@ -21,7 +21,7 @@ print(Genre_Metascore100)
 
 ```{R}
    Genre                       		Meta_score
-   <chr>                            		     <dbl>
+   <chr>                                     <dbl> 
  1 Crime, Drama                       	      100
  2 Drama, Romance, War                	      100
  3 Mystery, Thriller                  	      100
