@@ -22,22 +22,10 @@ This dataset is about's IMDB information of top 1000 movies and tv shows. This d
 15. Noofvotes - Total number of votes
 16. Gross - Money earned by that movie
 
-## Overview
+:heart: ## Overview
 เป็นการวิเคราะห์ข้อมูลเชิงสถิติเกี่ยวกับ ความรู้และความพร้อมของนักศึกษาต่อการเรียนรู้รายวิชา INT214 พฤติกรรมความชื่นชอบของนักศึกษา ข้อมูลเกี่ยวกับนักศึกษา โดยได้มีการสำรวจข้อมูลนักศึกษาชั้นปีที่ 2 โดยใช้เครื่องมือ Google Forms และนำมาทำความสะอาดและวิเคราะห์โดยใช้ภาษา R และใช้เครื่องมือ Google Studio ในการทำ Dashboard ของข้อมูล นอกจากนี้ได้มีการวิเคราะห์เพื่อหาความสัมพันธ์ของข้อมูล และตั้งสมมุติฐาน
 
-### Question
-สิ่งที่ต้องการจะทราบ :
-เราเลยตั้งคำถามกันมาทั้งหมด 8 ข้อ ดังนี้
-1.) หาว่าหนังแนวไหนบ้างได้รับคะเเนน Metascore =100
-2.) หนังที่มี imdb rating ตั้งแต่ 9 ขึ้นไป ชื่ออะไรและออกฉายในปีไหน
-3.) ประเภทหนังที่ติด top 1000 มากที่สุด 3 อันดับแรก
-4.) ปีไหนที่มีการปล่อยหนังมากที่สุด
-5.) ผู้กำกับที่กำกับหนังติด top 1000 มากที่สุดในช่วงนี้ปี 2010 - 2020 และทำรายได้เฉลี่ยเท่าไหร่
-6.) ในช่วงศตวรรษที่ 19 และศตวรรษที่ 20 หนังแนวไหนที่ทำรายได้มากที่สุดในแต่ละศตววรษ
-7.) ในช่วงศตวรรษที่ 20 นักแสดงนำคนที่ 1 ใครมีผลงานมากที่สุด
-8.) นักแสดงนำที่ 1 กับผู้กำกับคู่ไหนที่ทำงานร่วมกันมากที่สุด ทั้งหมดกี่เรื่อง
-
-### Steps
+#:fire:### Steps
 
 1. Define a question
 2. Collect Data by using survey method
@@ -46,7 +34,7 @@ This dataset is about's IMDB information of top 1000 movies and tv shows. This d
 5. Data Cleaning and Data Transformation
 6. Exploratory Data Analysis
 
-### Tools
+:wrench:### Tools
 
 - R Language
 - R Studio Desktop
