@@ -1,6 +1,6 @@
 # Data Analysis
 
-## 1.) หาว่าหนังแนวไหนบ้างได้รับคะเเนน Metascore =100
+## 1.) หาว่าหนังแนวไหนบ้างได้รับคะเเนน Metascore เท่ากับ 100
 ### Code : 
 ```{R}
 Genre_Metascore100 <- imdb %>% 
@@ -8,16 +8,16 @@ select(Genre, Meta_score,)%>%
 filter(Meta_score == 100)
 print(Genre_Metascore100)
 ```
-### Result :Result : จะมีประเภทของหนังที่ได้รับคะเเนน Metascore  100 มี 
-1. Crime, Drama 
-2. Drama, Romance, War 
-3. Mystery, Thriller 
-4. Adventure, Biography, Drama  
-5. Mystery, Romance, Thriller 
-6. Drama, Mystery 
-7. Drama, Mystery, Romance 
-8. Drama, Film-Noi 
-9. Drama, Film-Noir, Romance 
+### Result : จะมีประเภทของหนังที่ได้รับคะเเนน Metascore 100 คือ 
+#### 1. Crime, Drama 
+#### 2. Drama, Romance, War 
+#### 3. Mystery, Thriller 
+#### 4. Adventure, Biography, Drama  
+#### 5. Mystery, Romance, Thriller 
+#### 6. Drama, Mystery 
+#### 7. Drama, Mystery, Romance 
+#### 8. Drama, Film-Noi 
+#### 9. Drama, Film-Noir, Romance 
 
 ```{R}
    Genre                                  Meta_score
@@ -46,11 +46,11 @@ filter(IMDB_Rating >= 9)
 print(IMDB9)
 ```
 ### Result : จะมีหนังที่ได้คะแนนตั้งแต่ 9 ขึ้นไป มี 
-### 1. The Shawshank Redemption ออกฉายในปี 1994
-### 2. The Godfather: Part II ออกฉายในปี 1974 
-### 3.The Godfather ออกฉายในปี 1972 
-### 4.The Dark Knight ออกฉายในปี 2008
-### 5. 12 Angry Men ออกฉายในปี 1957
+#### 1. The Shawshank Redemption ออกฉายในปี 1994
+#### 2. The Godfather: Part II ออกฉายในปี 1974 
+#### 3.The Godfather ออกฉายในปี 1972 
+#### 4.The Dark Knight ออกฉายในปี 2008
+#### 5. 12 Angry Men ออกฉายในปี 1957
 ```{R}
   Series_Title                                          Released_Year            IMDB_Rating
     <chr>                                                  <dbl>                   <dbl>                 
