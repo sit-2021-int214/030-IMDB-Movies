@@ -6,6 +6,11 @@
 IMDB Dataset of top 1000 movies นั้นเป็น dataset ที่รวบรวมข้อมูลของ URLของหนัง , ชื่อหนัง , ปีที่หนังฉาย , เรทอายุ , ระยะเวลาของหนัง , ประเภทของหนัง , IMDB_score , เรื่องย่อ , Meta_score , ชื่อผู้กำกับ , นักเเสดงนำ1/2/3เเละ4 , เเละรายได้ของหนังเรื่องนั้นๆ โดยจะมีจำนวนหนังอยู่ที่ 1000 เรื่อง 
 (1000 obs. เเละมี่ 16 variables)
 
-| variables | รายละเอียด | ประเภท | ตัวอย่างข้อมูล |
+| ชื่อคอลัมน์ | รายละเอียด | ประเภท | ตัวอย่างข้อมูล |
 |-----------|-----------|-------|------------|
 |Poster_Link | ลิงค์โปสเตอร์หนัง | character | https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGde...|
+Series_Title | ชื่อหนัง | character | The Matrix
+Released_Year | ปีที่ฉาย | character | 1999 |
+Certificate | เรทอายุ | character | UA |
+Runtime | ระยะเวลาของหนัง | character | 136 min |
+Genre | ประเภทของหนัง | character | Drama |
