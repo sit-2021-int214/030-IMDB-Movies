@@ -31,7 +31,7 @@ is.character(imdb$Star1)
 
 is.numeric(imdb$Gross)
 ```
-### Result : 
+#### Result : 
 ```{R}
 > is.character(imdb$Series_Title)
 [1] TRUE
@@ -69,7 +69,13 @@ imdb$Released_Year <- replace(imdb$Released_Year,imdb$Released_Year == "PG", 199
 ```{R}
 imdb %>% duplicated() %>% table()
 ```
-
+#### Result : 
+```{R}
+> imdb %>% duplicated() %>% table()
+.
+FALSE 
+ 1000 
+```
 ## ขั้นตอนที่ 4 : Save as CSV
 ```{R}
 write.csv(imdb,"C:/Users/66830/Desktop/imdb_top_1000_cleaning.csv", row.names=FALSE)
