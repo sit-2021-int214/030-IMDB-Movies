@@ -34,7 +34,7 @@ This dataset is about's IMDB information of top 1000 movies and tv shows. This d
 5. Data Cleaning and Data Transformation
 6. Exploratory Data Analysis
 
-:wrench:### Tools
+<h2>:wrench:### Tools</h2>
 
 - R Language
 - R Studio Desktop
@@ -72,5 +72,5 @@ Team: Noob Riot
 
 ### Instructor
 
-<h4> - ATCHARA TRAN-U-RAIKUL :fire:</h4>
-<h4> - JATAWAT XIE (Git: [safesit23](https://github.com/safesit23)) :fire:</h4>
+- ATCHARA TRAN-U-RAIKUL
+<h4>- JATAWAT XIE (Git: [safesit23](https://github.com/safesit23)) :fire:</h4>
