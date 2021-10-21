@@ -25,7 +25,7 @@ This dataset is about's IMDB information of top 1000 movies and tv shows. This d
 :heart: ## Overview
 เป็นการวิเคราะห์ข้อมูลเชิงสถิติเกี่ยวกับ ความรู้และความพร้อมของนักศึกษาต่อการเรียนรู้รายวิชา INT214 พฤติกรรมความชื่นชอบของนักศึกษา ข้อมูลเกี่ยวกับนักศึกษา โดยได้มีการสำรวจข้อมูลนักศึกษาชั้นปีที่ 2 โดยใช้เครื่องมือ Google Forms และนำมาทำความสะอาดและวิเคราะห์โดยใช้ภาษา R และใช้เครื่องมือ Google Studio ในการทำ Dashboard ของข้อมูล นอกจากนี้ได้มีการวิเคราะห์เพื่อหาความสัมพันธ์ของข้อมูล และตั้งสมมุติฐาน
 
-#:fire:### Steps
+<h1>:fire:</h1>### Steps
 
 1. Define a question
 2. Collect Data by using survey method
