@@ -27,9 +27,8 @@ is.numeric(imdb$Gross)
 
 #Changing the types of values and Handling missing data and outliers
 imdb$Released_Year <- replace(imdb$Released_Year,imdb$Released_Year == "PG", 1995) %>% as.numeric()
-is.na(imdb)
 
-#Removing duplicate data
+#Checking duplicate data
 imdb %>% duplicated() %>% table()
 
 #save as CSV
