@@ -72,5 +72,5 @@ Team: Noob Riot
 
 ### Instructor
 
-- ATCHARA TRAN-U-RAIKUL
-<h4>- JATAWAT XIE (Git: [safesit23](https://github.com/safesit23)) :fire:</h4>
+<h4> - ATCHARA TRAN-U-RAIKUL :fire:</h4>
+<h4> - JATAWAT XIE (Git: [safesit23](https://github.com/safesit23)) :fire:</h4>
