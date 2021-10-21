@@ -126,7 +126,7 @@ print(Denis_10_15)
  `Mode(Director)`
   <chr>           
 1 Denis Villeneuve
-
+```
 ### Result : โดยผู้กำกับที่มีชื่อว่า Denis Villeneuve กำกับหนังที่ ติด top 1000 ในปี 2010 - 2020 มีรายได้เฉลี่ย เท่ากับ 61,469,798 $
 ```{R}
 `mean(Gross, na.rm = TRUE)`
