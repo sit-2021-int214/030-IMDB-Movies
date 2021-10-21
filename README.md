@@ -64,11 +64,11 @@ This dataset is about's IMDB information of top 1000 movies and tv shows. This d
 
 Team: Noob Riot
 
-1. ธันณวัฒน์ ชูดำ     StudentID: 63130500142
-2. วิศรุต อำไพสุวรรณ     StudentID: 63130500146
-3. ณัฐพล ชูศรีวัน     StudentID: 63130500154
-4. ทศวรรษ สมตัว     StudentID: 63130500155
-5. ศุภกร ไพรสกุลเดชา     StudentID: 63130500158
+|1.| ธันณวัฒน์ ชูดำ |   StudentID: 63130500142 |
+|2.| วิศรุต อำไพสุวรรณ |     StudentID: 63130500146 |
+|3.| ณัฐพล ชูศรีวัน |     StudentID: 63130500154 |
+|4.| ทศวรรษ สมตัว |     StudentID: 63130500155 |
+|5.| ศุภกร ไพรสกุลเดชา |     StudentID: 63130500158 |
 
 ### Instructor
 
