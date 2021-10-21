@@ -34,7 +34,7 @@ This dataset is about's IMDB information of top 1000 movies and tv shows. This d
 5. Data Cleaning and Data Transformation
 6. Exploratory Data Analysis
 
-<h2>:wrench:### Tools</h2>
+<h2>:wrench: ### Tools</h2>
 
 - R Language
 - R Studio Desktop
