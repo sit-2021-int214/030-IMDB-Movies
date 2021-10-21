@@ -20,7 +20,7 @@ print(Genre_Metascore100)
 9. Drama, Film-Noir, Romance 
 
 ```{R}
-   Genre                       		Meta_score
+   Genre                                  Meta_score
    <chr>                                     <dbl> 
  1 Crime, Drama                       	      100
  2 Drama, Romance, War                	      100
