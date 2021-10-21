@@ -51,13 +51,13 @@ IMDB9 <- imdb %>%
 4.The Dark Knight ออกฉายในปี 2008
 5. 12 Angry Men ออกฉายในปี 1957
 ```{R}
-  Series_Title                                  Released_Year                   IMDB_Rating
-    <chr>                                                 <dbl>                  <dbl>                 
-1 The Shawshank Redemption	                               1994			              9.3     
-2 The Godfather: Part II		                               1974			              9.0
-3 The Godfather			                                       1972			              9.2
-4.The Dark Knight			                                     2008			              9.0
-5.12 Angry Men			                                       1957			              9.0
+  Series_Title                                          Released_Year            IMDB_Rating
+    <chr>                                                  <dbl>                   <dbl>                 
+1 The Shawshank Redemption                                 1994                     9.3     
+2 The Godfather: Part II                                   1974                     9.0
+3 The Godfather                                            1972	                    9.2
+4.The Dark Knight                                          2008                     9.0
+5.12 Angry Men                                             1957                     9.0
 
 ```
 
