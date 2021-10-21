@@ -4,8 +4,8 @@
 ### Code : 
 ```{R}
 Genre_Metascore100 <- imdb %>% 
-  select(Genre, Meta_score,)%>%
-  filter(Meta_score == 100)
+select(Genre, Meta_score,)%>%
+filter(Meta_score == 100)
 print(Genre_Metascore100)
 ```
 ### Result :Result : จะมีประเภทของหนังที่ได้รับคะเเนน Metascore  100 มี 
@@ -41,9 +41,9 @@ print(Genre_Metascore100)
 ### Code : 
 ```{R}
 IMDB9 <- imdb %>% 
-  select(Series_Title, Released_Year, IMDB_Rating) %>%
-  filter(IMDB_Rating >= 9)
-  print(IMDB9)
+select(Series_Title, Released_Year, IMDB_Rating) %>%
+filter(IMDB_Rating >= 9)
+print(IMDB9)
 ```
 ### Result : จะมีหนังที่ได้คะแนนตั้งแต่ 9 ขึ้นไป มี 1. The Shawshank Redemption ออกฉายในปี 1994
 2. The Godfather: Part II ออกฉายในปี 1974 
@@ -65,8 +65,8 @@ IMDB9 <- imdb %>%
 ### Code : 
 ```{R}
 Genre1 <- imdb %>% select(Genre) %>%
-  count(Genre,sort = TRUE) %>%
-  head(Genre,n=3) 
+count(Genre,sort = TRUE) %>%
+head(Genre,n=3) 
 names(Genre1)[2] <- 'Count_of_Genre'
 print(Genre1)
 ```
@@ -108,16 +108,16 @@ print(Years)
 ### Code : 
 ```{R}
 Direct <- imdb %>%
-  filter( Released_Year > 2009  & Released_Year < 2021 ) %>%
-  select(Director) %>%
-  summarise(Mode(Director))
+filter( Released_Year > 2009  & Released_Year < 2021 ) %>%
+select(Director) %>%
+summarise(Mode(Director))
 print(direct)
 
 
 Denis_10_15 <-imdb %>%
-  filter(Director == "Denis Villeneuve" & Released_Year > 2009  & Released_Year < 2021) %>%
-  select(Gross) %>% 
-  summarise(mean(Gross, na.rm = TRUE))
+filter(Director == "Denis Villeneuve" & Released_Year > 2009  & Released_Year < 2021) %>%
+select(Gross) %>% 
+summarise(mean(Gross, na.rm = TRUE))
 print(Denis_10_15)
 
 ```
@@ -138,20 +138,20 @@ print(Denis_10_15)
 ## 6.) ในช่วงศตวรรษที่ 19 และศตวรรษที่ 20 หนังแนวไหนที่ทำรายได้มากที่สุดในแต่ละศตววรษ
 ### Code : 
 ```{R}
-  Genre19s <- imdb %>% 
-  select(Released_Year , Gross , Genre)  %>% 
-  arrange(desc(Gross)) %>% 
-  filter(Released_Year >= 1901 & Released_Year < 2000 ) %>%
-  head(Gross,n=1)
-  print(Genre19s)
+Genre19s <- imdb %>% 
+select(Released_Year , Gross , Genre)  %>% 
+arrange(desc(Gross)) %>% 
+filter(Released_Year >= 1901 & Released_Year < 2000 ) %>%
+head(Gross,n=1)
+print(Genre19s)
 
 
-  Genre20s <- imdb %>% 
-  select(Released_Year , Gross , Genre)  %>% 
-  arrange(desc(Gross)) %>% 
-  filter(Released_Year >= 2001 & Released_Year < 3000) %>% 
-  head(Gross,n=1)
-  print(Genre20s)
+Genre20s <- imdb %>% 
+select(Released_Year , Gross , Genre)  %>% 
+arrange(desc(Gross)) %>% 
+filter(Released_Year >= 2001 & Released_Year < 3000) %>% 
+head(Gross,n=1)
+print(Genre20s)
 ```
 ### Result : หนังประเภท Drama, Romance เป็นหนังที่ได้รับความนิยมมากที่สุดในศตรวรรษที่ 19
 ```{R}
@@ -170,10 +170,10 @@ Released_Year            Gross           Genre
 ## 7.) ในช่วงศตวรรษที่ 20 นักแสดงนำคนที่ 1 ใครมีผลงานมากที่สุด
 ### Code : 
 ```{R} 
-    T2000 <- imdb %>% select(Star1,Released_Year)%>%
-  filter(Released_Year >= 2001 & Released_Year < 3000)%>%
-  count(Star1,sort = TRUE) %>%
-  head(Star1,n=1)
+T2000 <- imdb %>% select(Star1,Released_Year)%>%
+filter(Released_Year >= 2001 & Released_Year < 3000)%>%
+count(Star1,sort = TRUE) %>%
+head(Star1,n=1)
 names(T2000)[2] <- 'Count_of_Movie'
 print(T2000)
 ```
@@ -189,8 +189,8 @@ Star1                          Count_of_Movie
 ### Code : 
 ```{R} 
 starNumber1 <- imdb %>% select(Star1,Director) %>%
- count(Star1,Director,sort = TRUE)%>%
- head(Star1,n=1)
+count(Star1,Director,sort = TRUE)%>%
+head(Star1,n=1)
 names(starNumber1)[3] <- 'Number of times'
 print(starNumber1)
 ```
