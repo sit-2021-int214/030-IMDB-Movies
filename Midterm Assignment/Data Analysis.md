@@ -71,7 +71,7 @@ head(Genre,n=3)
 names(Genre1)[2] <- 'Count_of_Genre'
 print(Genre1)
 ```
-### Result :จะมีประเภท Drama ที่ติดมากที่สุดคือ 85 เรื่อง และลำดับที่ 2 คือ Drama, Romance มีทั้งหมด 37 เรื่อง และ Comedy, Drama ที่เป็นลำดับที่ 3 โดยมีทั้งหมด 35 เรื่อง
+### Result : จะมีประเภท Drama ที่ติดมากที่สุดคือ 85 เรื่อง และลำดับที่ 2 คือ Drama, Romance มีทั้งหมด 37 เรื่อง และ Comedy, Drama ที่เป็นลำดับที่ 3 โดยมีทั้งหมด 35 เรื่อง
 ```{R}
  Genre             Count_of_Genre
   <chr>               <int>
@@ -88,7 +88,7 @@ Years <- imdb %>% count(Released_Year , sort = TRUE)
 names(Years)[2] <-'Count_of_year'
 print(Years)
 ```
-### Result :ปีทึ่มีการฉายหนังมากที่สุดคือปี 2014 จำนวนทั้งหมด 32 เรื่อง และ ปี 2009 จำนวน 31 เรื่องตามลำดับ
+### Result : ปีทึ่มีการฉายหนังมากที่สุดคือปี 2014 จำนวนทั้งหมด 32 เรื่อง และ ปี 2009 จำนวน 31 เรื่องตามลำดับ
 ```{R}
    Released_Year Count_of_year
          <dbl>    <int>
@@ -178,7 +178,7 @@ head(Star1,n=1)
 names(T2000)[2] <- 'Count_of_Movie'
 print(T2000)
 ```
-###Result : ในช่วงศตวรรษที่ 20 นักแสดงนำคนที่ 1 ที่มีผลงานมากที่สุด คือ Leonardo DiCaprio ซึ่งมีจำนวนทั้งหมด  8 ครั้ง
+### Result : ในช่วงศตวรรษที่ 20 นักแสดงนำคนที่ 1 ที่มีผลงานมากที่สุด คือ Leonardo DiCaprio ซึ่งมีจำนวนทั้งหมด  8 ครั้ง
 ```{R}
 Star1                          Count_of_Movie
   <chr>                         <int>
@@ -195,7 +195,7 @@ head(Star1,n=1)
 names(starNumber1)[3] <- 'Number of times'
 print(starNumber1)
 ```
-###Result : นักเเสดงนำที่ 1 และผู้กำกับที่มีการร่วมงานกันมากที่สุดคือ
+### Result : นักเเสดงนำที่ 1 และผู้กำกับที่มีการร่วมงานกันมากที่สุดคือ
 ```{R}
   Star1                            Director       `Number of times`
   <chr>                             <chr>                   <int>
