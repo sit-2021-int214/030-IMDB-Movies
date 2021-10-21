@@ -195,7 +195,7 @@ head(Star1,n=1)
 names(starNumber1)[3] <- 'Number of times'
 print(starNumber1)
 ```
-### Result : นักเเสดงนำที่ 1 และผู้กำกับที่มีการร่วมงานกันมากที่สุดคือผู้กำกับ Toshirô Mifune และนักแสดงที่1 Akira Kurosawa โดยร่วมงานกันทั้งหมด 7 ครั้ง
+### Result : นักเเสดงนำที่ 1 และผู้กำกับที่มีการร่วมงานกันมากที่สุดคือ นักแสดงนำที่1 Akira Kurosawa และผู้กำกับ Toshirô Mifune โดยร่วมงานกันทั้งหมด 7 ครั้ง
 ```{R}
   Star1                            Director       `Number of times`
   <chr>                             <chr>                   <int>
