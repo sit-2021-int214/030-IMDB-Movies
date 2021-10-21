@@ -65,11 +65,10 @@ Error: is_numeric : imdb$Released_Year is not of class 'numeric'; it has class '
 imdb$Released_Year <- replace(imdb$Released_Year,imdb$Released_Year == "PG", 1995) %>% as.numeric()
 ```
 ##  ขั้นตอนที่ 3 : Checking duplicate data
-#### ไม่มี duplicated data
 ```{R}
 imdb %>% duplicated() %>% table()
 ```
-#### Result : 
+#### Result : ไม่มี duplicated data
 ```{R}
 > imdb %>% duplicated() %>% table()
 .
