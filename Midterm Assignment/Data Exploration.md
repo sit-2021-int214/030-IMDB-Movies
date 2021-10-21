@@ -8,7 +8,7 @@ library(readr)
 library(DescTools)
 
 #dataset
-IMDB <- read_csv("https://raw.githubusercontent.com/sit-2021-int214/030-IMDB-Movies/main/Midterm%20Assignment/imdb_top_1000_cleaning.csv")
+imdb <- read_csv("https://raw.githubusercontent.com/sit-2021-int214/030-IMDB-Movies/main/Midterm%20Assignment/imdb_top_1000_cleaning.csv")
 ```
 
 ## 1 : เลือกหัวข้อ Dataset 
