@@ -32,7 +32,7 @@ is.character(imdb$Star1)
 is.numeric(imdb$Gross)
 ```
 ##  ขั้นตอนที่ 2 : Changing the types of values and Handling missing data and outliers
-#### เนื่องจากในคอลัมน์ Released_Year มีข้อมูลหนังที่มีปีที่ออกฉายเป็น "PG" เราไปเช็ตมาแล้วว่าหนังเรื่องนั้นออกฉายเมื่อปี 1995 จึง replace เป็น 1995 แทน "PG" และเนื่องจาก Released_Year เป็น type character เราจึงเปลี่ยนเป็น type numeric แทน
+#### เนื่องจากในคอลัมน์ Released_Year มีข้อมูลหนังที่มีปีที่ออกฉายเป็น "PG" เราไปเช็คมาแล้วว่าหนังเรื่องนั้นออกฉายเมื่อปี 1995 จึง replace เป็น 1995 แทน "PG" และเนื่องจาก Released_Year เป็น type character เราจึงเปลี่ยนเป็น type numeric แทน
 ```{R}
 imdb$Released_Year <- replace(imdb$Released_Year,imdb$Released_Year == "PG", 1995) %>% as.numeric()
 ```
