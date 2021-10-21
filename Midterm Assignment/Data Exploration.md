@@ -1,6 +1,6 @@
 ## 1 : เลือกหัวข้อ Dataset 
 * Dataset ที่กลุ่มของพวกเราใช้นั้นเป็น Dataset IMDB Dataset of top 1000 movies ที่รวบรวมข้อมูลมาจากเว็บ IMDB โดยกลุ่มของพวกเราก็ชื่นชอบดูหนังอยู่แล้ว และเป็น Dataset ที่น่าสนใจที่จะนำมาทำเพราะมีข้อมูลข้างในที่ค่อนข้างหลากหลาย เลยมาสนใจใน Dataset นี้
-* ref: IMDB Movies Dataset | Kaggle
+* ref: https://www.kaggle.com/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows
 
 ## 2 : รายละเอียดของตัว Dataset (Data Exploration and Analysis)
 IMDB Dataset of top 1000 movies นั้นเป็น dataset ที่รวบรวมข้อมูลของ URLของหนัง, ชื่อหนัง, ปีที่หนังฉาย, เรทอายุ, ระยะเวลาของหนัง, ประเภทของหนัง, IMDB_score, เรื่องย่อ, Meta_score, ชื่อผู้กำกับ, นักเเสดงนำ 1 2 3 เเละ 4, เเละรายได้ของหนังเรื่องนั้นๆ โดยจะมีจำนวนหนังอยู่ที่ 1000 เรื่อง 
