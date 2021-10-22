@@ -29,10 +29,9 @@ This dataset is about's IMDB information of top 1000 movies and tv shows. This d
 
 1. Define a question
 2. Collect Data by using survey method
-3. Export Data from Google sheet
-4. Explore Data from Original Data
-5. Data Cleaning and Data Transformation
-6. Exploratory Data Analysis
+3. Explore Data from Original Data
+4. Data Cleaning and Data Transformation
+5. Exploratory Data Analysis
 
 <h2>Tools :wrench:</h2>
 
