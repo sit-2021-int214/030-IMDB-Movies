@@ -1,16 +1,3 @@
-## 0 : โหลด library และ dataset
-
-```
-#library
-
-library(dplyr)
-library(readr)
-library(DescTools)
-
-#dataset
-imdb <- read_csv("https://raw.githubusercontent.com/sit-2021-int214/030-IMDB-Movies/main/Midterm%20Assignment/imdb_top_1000_cleaning.csv")
-```
-
 ## 1 : เลือกหัวข้อ Dataset 
 * Dataset ที่กลุ่มของพวกเราใช้นั้นเป็น Dataset IMDB Dataset of top 1000 movies ที่รวบรวมข้อมูลมาจากเว็บ IMDB โดยกลุ่มของพวกเราก็ชื่นชอบดูหนังอยู่แล้ว และเป็น Dataset ที่น่าสนใจที่จะนำมาทำเพราะมีข้อมูลข้างในที่ค่อนข้างหลากหลาย เลยมาสนใจใน Dataset นี้
 * ref: https://www.kaggle.com/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows
