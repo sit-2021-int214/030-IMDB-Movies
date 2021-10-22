@@ -49,8 +49,8 @@ This dataset is about's IMDB information of top 1000 movies and tv shows. This d
 
 ### Important Files in Repository
 
-- [clean-data.R](./clean-data.R) : Data Cleaning and Data Transformation
-- [SurveyINT214_original.csv](./SurveyINT214_original.csv): Original Dataset
+- [clean-data.R](./imdb_cleaning.R) : Data Cleaning and Data Transformation
+- [SurveyINT214_original.csv](./imdb_top_1000.csv): Original Dataset
 
 ### References
 
