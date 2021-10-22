@@ -29,7 +29,7 @@ This dataset is about's IMDB information of top 1000 movies and tv shows. This d
 <h2>Steps :running: </h2>
 
 1. Define a question
-2. Collect Data by using survey method
+2. Collect Data set from Kaggle
 3. Explore Data from Original Data
 4. Data Cleaning and Data Transformation
 5. Exploratory Data Analysis
