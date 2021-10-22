@@ -25,7 +25,9 @@ This dataset is about's IMDB information of top 1000 movies and tv shows. This d
 16. Gross - Money earned by that movie
 
 
-<p align="center">![image](https://static.wikia.nocookie.net/world-of-media/images/5/55/Imdb.png/revision/latest?cb=20180131193158)</p>
+<p align="center">
+  <img src="https://static.wikia.nocookie.net/world-of-media/images/5/55/Imdb.png/revision/latest?cb=20180131193158" />
+</p>
 
 
 </h1> <h1> Overview :heart: </h1> </br>
