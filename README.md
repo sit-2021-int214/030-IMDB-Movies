@@ -82,3 +82,8 @@ Team: Noob Riot
 
 <h4>- ATCHARA TRAN-U-RAIKUL :fire:</h4>
 <h4>- JATAWAT XIE (Git: [safesit23](https://github.com/safesit23)) :fire:</h4>
+
+
+<p align="center">
+  <img src="https://images.squarespace-cdn.com/content/v1/5860c1a3be6594106ff07b08/1575781968736-OEI0GYBEK1YFF3SXLXR0/Parasite+Poster.jpg?format=1000w" />
+</p>
