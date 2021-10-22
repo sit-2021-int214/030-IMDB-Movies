@@ -23,7 +23,7 @@ This dataset is about's IMDB information of top 1000 movies and tv shows. This d
 14. Star4 - Name of the Stars
 15. Noofvotes - Total number of votes
 16. Gross - Money earned by that movie
-![image](https://m.media-amazon.com/images/G/01/imdb/images/social/imdb_logo._CB410901634_.png)
+![image](https://static.wikia.nocookie.net/world-of-media/images/5/55/Imdb.png/revision/latest?cb=20180131193158)
 </h1> <h1> Overview :heart: </h1> </br>
 เป็นการวิเคราะห์ข้อมูลเชิงสถิติเกี่ยวกับ ความรู้และความพร้อมของนักศึกษาต่อการเรียนรู้รายวิชา INT214 พฤติกรรมความชื่นชอบของนักศึกษา ข้อมูลเกี่ยวกับนักศึกษา โดยได้มีการสำรวจข้อมูลนักศึกษาชั้นปีที่ 2 โดยใช้เครื่องมือ Google Forms และนำมาทำความสะอาดและวิเคราะห์โดยใช้ภาษา R และใช้เครื่องมือ Google Studio ในการทำ Dashboard ของข้อมูล นอกจากนี้ได้มีการวิเคราะห์เพื่อหาความสัมพันธ์ของข้อมูล และตั้งสมมุติฐาน
 
