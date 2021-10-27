@@ -54,7 +54,10 @@ Q6 <- SuperStore %>% select(Order.Date) %>%
   names(Q6)[2] <-'Count_of_OrderDate'
   print(Q6)
 
-E
+bar1 <- SuperStore %>% head(20) %>% ggplot(aes(x=State)) + 
+  geom_bar(fill="#f68060", alpha=.6, width=.4) + ggtitle("Count of State") + ylab("Sum of State")
+  bar1
+
 bar2 <- SuperStore %>% head(50)%>% ggplot(aes(x=Region)) + 
   geom_bar(fill="#f68060", alpha=.6, width=.4) + ggtitle("Count of Region") + ylab("Sum of Region") 
 bar2
