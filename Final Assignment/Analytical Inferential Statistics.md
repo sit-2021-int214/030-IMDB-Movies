@@ -75,7 +75,7 @@ Result
 if(pvalue<=alpha){
   print("Reject H0")
 }else{
-  print("Accept H0")
+  print("Not reject H0")
 }
  
 # Using critical value
