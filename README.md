@@ -53,6 +53,8 @@ This dataset is about's IMDB information of top 1000 movies and tv shows. This d
 1. [Data Exploratory and Define a question](https://github.com/sit-2021-int214/030-IMDB-Movies/blob/main/Midterm%20Assignment/Data%20Exploration.md)
 2. [Data Cleaning and Data Transformation](https://github.com/sit-2021-int214/030-IMDB-Movies/blob/main/Midterm%20Assignment/Data%20Cleaning.md)
 3. [Exploratory Data Analysis](https://github.com/sit-2021-int214/030-IMDB-Movies/blob/main/Midterm%20Assignment/Data%20Analysis.md)
+4. [Analytical Inferential Statistics](https://github.com/sit-2021-int214/030-IMDB-Movies/blob/main/Final%20Assignment/Analytical%20Inferential%20Statistics.md)
+5. [Data Visualization (PowerBI)](https://app.powerbi.com/view?r=eyJrIjoiMTdkOGU0OGEtMzFiMy00MWEwLWFiYWItNDE5YTkyMWJlYzNkIiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D)
 
 ## Resources
 
